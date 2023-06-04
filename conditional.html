@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>conditionals</title>
+</head>
+<body>
+    <h1>Conditionals </h1>
+    <p>This is about conditonals in js. </p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum sint pariatur quasi voluptatem accusamus velit, iure qui quisquam nobis accusantium nostrum quas minima voluptatibus incidunt impedit autem dolores perspiciatis aspernatur.
+    </p>
+    <script>
+        // if condition 
+        var a = 10;
+        var b = 40;
+        if (a<b)
+        // if (a>b)
+        // if(a==b)
+        {
+            document.write("a is smaller <br>");
+        }
+
+        // if else  statement 
+        var c = 30;
+       
+        if(c>0)
+        {
+            document.write("c is greater than 0 <br>");
+        }
+        else 
+        {
+            document.write(" c is smaller than 0 <br>");
+        }
+
+        // if else if statement 
+        var time = 5;
+        if (time<10)
+        {
+            document.write("good morning <br>");
+        }
+        else if (time<12)
+        {
+            document.write("good after noon ");
+        }
+        else
+        { 
+            document.write ("good evening");
+        }
+
+        var per= 55;
+        if( per>=80 && per<=100)
+        {
+            document.write("You are in merit");
+        }
+        else if(per>=60&& per<=80)
+        {
+            document.write( "You are in merit ");
+        }
+        else if (per>=45 && per<=60)
+        {
+            document.write("You are in merit ");
+        }
+        else if (per>=33 && per<=45)
+        {
+            documnet.write("You are in merit");
+        }
+        else if (per<33)
+        {
+            document.write("You are in merit");
+        }
+        else {
+            documetn.write("You are not in merit");
+        }
+
+        // ternary operator
+        var x = 100;
+        var b;
+        (x==100)? b ="true" : b= " false";
+        document.write(b);
+
+        var y =400;
+        var z;
+        z = (y>180)? "true" : "false";
+        document.write(z);
+
+        var k =974;
+        var l;
+        l = "value is " + (a==974 ? "true" : "false");
+        document.write(l);
+
+    </script>
+</body>
+</html>
