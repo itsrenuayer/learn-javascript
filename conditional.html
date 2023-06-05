@@ -23,6 +23,7 @@
         }
 
         // if else  statement 
+        // example-one
         var c = 30;
        
         if(c>0)
@@ -48,6 +49,7 @@
         { 
             document.write ("good evening");
         }
+        // example-two
 
         var per= 55;
         if( per>=80 && per<=100)
@@ -89,6 +91,49 @@
         var l;
         l = "value is " + (a==974 ? "true" : "false");
         document.write(l);
+
+        // switch case
+        // example - one
+        var day = 1;
+        switch(day)
+        {
+            case 0:
+                document.write("Today is sunday");
+                break;
+            case 1:
+                document.write("Toay is monday");
+                break;
+            case 2:
+                document.write("Toay is tuesday");
+                break;
+            case 3:
+                document.write("Toay is wednesday");
+                break;
+            case 4:
+                document.write("Toay is thursday");
+                break;
+            case 5:
+                document.write("Toay is friday");
+                break;
+            case 6:
+                document.write("Toay is saturday");
+                break;
+
+                default:
+                    document.write("enter the valid day");
+        }
+
+        // example-two
+        var age  = 18;
+        switch (true)
+        {
+            case (age >=18 && age <=20):
+                document.write("You are eligible");
+                break;
+            case (age >=21 && age <=30):
+                document.write("You are eligible");
+                break;
+        }
 
     </script>
 </body>
