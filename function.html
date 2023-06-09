@@ -15,12 +15,38 @@
         function renu()
         {
             document.write("Hii");
+             document.write("<br>");
         }
         hello();
         renu();
 
         // function with parameter
-        
+        var x;
+        var y;
+        var z;
+        function sum( x ,y)
+        {
+            z = x + y;
+            document.write(z);
+             document.write("<br>");
+        }
+        sum(45 , 76);
+        // secon example 
+        function name(fname , lname)
+        {
+            document.write("hello " + fname +"" +lname + "<br>");
+        }
+        name("Dev" , "Chand");
+
+        // function with return value
+
+        function happy(fword , lword)
+        {
+            var d = fword + "" +lword;
+            return d;
+        }
+        var hp = happy("Happy" , "Birthday");
+        document.write(hp);
     </script>
 </head>
 <body>
